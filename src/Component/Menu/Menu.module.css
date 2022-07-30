@@ -1,0 +1,12 @@
+.menuContainer {
+    background-color: #1e2022;
+    height: 53px;
+    gap: 20px;
+}
+.menuItem span {
+    color: #c5c8cc !important;
+    font-size: 14px;
+}
+.menuItem span svg:nth-child(2) {
+    width: 10px !important;
+}

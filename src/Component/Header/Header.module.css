@@ -1,0 +1,145 @@
+.headerContainer {
+    background-color: #17181a!important;
+    height: 63px;
+}
+.headerContainer img {
+    width: 104px;
+}
+.inputContainer {
+    width: 337px;
+    /* background-color: rgba(255,255,255,.1); */
+    height: 40px;
+    border-radius: 0.3125rem;
+}
+
+.searchInput {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.searchInput::placeholder {
+    color: #c5c8cc;
+}
+.searchResultContainer {
+    width: 336px;
+    height: 412px;
+    background-color: #2a2d30;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 140%;
+    left: 0px;
+}
+.otherResultsContainer {
+    overflow-y: auto;
+}
+.seeAllResultsContainer {
+    border-top: 1px solid #c5c8cc17;
+}
+.seeAllResultsContainer span {
+    color: #c5c8cc;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.seeAllResultsContainer span:nth-child(1):hover {
+    opacity: 1;
+}
+.seeAllResultsContainer span:nth-child(2) {
+    width: 7px;
+    height: 7px;
+    margin-top: 2px;
+    border-left: 1px solid #c5c8cc;
+    border-bottom: 1px solid #c5c8cc;
+    transform: rotate(-135deg);
+}
+.recentSearchTags {
+    background-color: #63666997;
+    border-radius: 30px;
+    height: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.recentSearchTags span {
+    font-size: 12px;
+}
+.recentSearchTags:hover {
+    background-color: #fff;
+    color: #636669fa;
+}
+.tutorialsTagsContainer {
+    background-color: transparent;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: rgba(211,211,211,.73);
+}
+.tutorialsTagsContainer span {
+    font-size: 12px !important;
+}
+.tutorialsTagsContainer:hover {
+    background-color: rgba(255,255,255,.075);
+}
+.tutorialsTagsContainerIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.avatarFrame {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:  #202325
+}
+.avatarFrame img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.rightMenu {
+    width: 255px;
+}
+.useAvatar {
+    position: relative;
+}
+.useAvatar::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #00c9a7;
+    border: 2px solid #25282a;
+}
+.useAvatar img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.rightIconMenu {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.rightIconMenu:hover {
+    background-color: rgba(80,86,91,.15)
+}
+.rightIconMenuNotif {
+    position: relative;
+}
+.rightIconMenuNotif::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ed4c78;
+}
